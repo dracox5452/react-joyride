@@ -91,7 +91,7 @@
   "scripts": {
     "build": " npm run clean && tsup && ts-node scripts/fix-cjs.ts",
     "watch": "tsup --watch",
-    "clean": "del dist/*",
+    "clean": "del dist",
     "lint": "eslint --fix src test",
     "typecheck": "tsc -p test/tsconfig.json",
     "typevalidation": "attw -P",
